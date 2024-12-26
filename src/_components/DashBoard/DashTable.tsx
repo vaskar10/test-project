@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, EllipsisVertical, Plus } from "lucide-react";
 import { useState } from "react";
@@ -190,7 +190,7 @@ const DashTable = () => {
                                     alt={row.name}
                                     className="w-6 h-6 rounded-sm"
                                   />
-                                  <AvatarFallback>{row.name[0]}</AvatarFallback>
+                                  
                                 </Avatar>
                                   </div>
                               ) : null}
