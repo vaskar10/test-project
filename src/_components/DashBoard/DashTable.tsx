@@ -144,7 +144,7 @@ const DashTable = () => {
                     <Plus /> Add columns
                   </Button>
                   {activeDropdown === "columns" && (
-                    <div className="absolute ml-5 mt-2 w-40 bg-white shadow-lg rounded-md z-10">
+                    <div className="absolute ml-5 mt-2 w-40 bg-white shadow-lg rounded-md z-50 overflow-x-auto h-[150px] ">
                       {columns.map((col) => (
                         <button
                           key={col.id}
